@@ -3,4 +3,7 @@ class ApplicationController < ActionController::Base
   def say_hello
     render html: "Hi! From Tirthanu!"
   end
+  def curse
+    render html: "fok off ya lil shit"
+  end
 end
